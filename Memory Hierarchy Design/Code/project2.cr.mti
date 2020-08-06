@@ -1,0 +1,230 @@
+//Mac/Home/Desktop/ece154lab02final/adder_tb.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/adder_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module adder_tb
+
+Top level modules:
+	adder_tb
+
+} {} {}} //Mac/Home/Desktop/ece154lab02final/cachecontrol.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/cachecontrol.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module cache_control
+-- Compiling module FSM
+
+Top level modules:
+	cache_control
+
+} {} {}} //Mac/Home/Desktop/ece154lab02final/cache2.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/cache2.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module cachesystem
+-- Compiling module cache
+
+Top level modules:
+	cachesystem
+
+} {} {}} //Mac/Home/Desktop/ece154lab02final/multiplier.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/multiplier.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module laji_mult
+
+Top level modules:
+	laji_mult
+
+} {} {}} //Mac/Home/Desktop/ece154lab02final/mult_tb.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/mult_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mult_tb
+
+Top level modules:
+	mult_tb
+
+} {} {}} //Mac/Home/Desktop/ece154lab02final/hazard_tb.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/hazard_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+
+} {} {}} //Mac/Home/Desktop/ece154lab02final/detector_tb.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/detector_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module detector_tb
+
+Top level modules:
+	detector_tb
+
+} {} {}} //Mac/Home/Desktop/ece154lab02final/mips.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/mips.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} //Mac/Home/Desktop/ece154lab02final/cache_tb.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/cache_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module cache_tb
+
+Top level modules:
+	cache_tb
+
+} {} {}} //Mac/Home/Desktop/ece154lab02final/reg_file_tb.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/reg_file_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module reg_file_tb
+
+Top level modules:
+	reg_file_tb
+
+} {} {}} //Mac/Home/Desktop/ece154lab02final/Finaltest.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/Finaltest.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module datapath_tb
+
+Top level modules:
+	datapath_tb
+
+} {} {}} //Mac/Home/Desktop/ece154lab02final/ALU.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/ALU.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} //Mac/Home/Desktop/ece154lab02final/data_memory.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/data_memory.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module data_memory
+-- Compiling module inst_memory
+
+Top level modules:
+	data_memory
+	inst_memory
+
+} {} {}} //Mac/Home/Desktop/ece154lab02final/delaysignal_tb.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/delaysignal_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module delaysignal_tb
+
+Top level modules:
+	delaysignal_tb
+
+} {} {}} //Mac/Home/Desktop/ece154lab02final/generalModule.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/generalModule.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module adder
+-- Compiling module adder64
+-- Compiling module sl2
+-- Compiling module s25l2
+-- Compiling module sl16
+-- Compiling module sl2jump
+-- Compiling module extend
+-- Compiling module signext
+-- Compiling module flopr
+-- Compiling module multreg
+-- Compiling module fetchtodec
+-- Compiling module dectoexc
+-- Compiling module exctom
+-- Compiling module mtowrite
+-- Compiling module mux2
+-- Compiling module mux3
+-- Compiling module mux4
+-- Compiling module enablereg
+-- Compiling module normalreg
+-- Compiling module resetclearenablereg
+-- Compiling module clearenablereg
+-- Compiling module clearreg
+-- Compiling module signaldelay
+
+Top level modules:
+	adder
+	adder64
+	sl2
+	s25l2
+	sl16
+	sl2jump
+	extend
+	signext
+	flopr
+	multreg
+	fetchtodec
+	dectoexc
+	exctom
+	mtowrite
+	mux2
+	mux3
+	mux4
+	enablereg
+	normalreg
+	resetclearenablereg
+	clearenablereg
+	clearreg
+	signaldelay
+
+} {} {}} //Mac/Home/Desktop/ece154lab02final/Controller.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/Controller.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} //Mac/Home/Desktop/ece154lab02final/reg_file.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/reg_file.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} //Mac/Home/Desktop/ece154lab02final/Data_Path.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/Data_Path.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module data_path
+
+Top level modules:
+	data_path
+
+} {} {}} //Mac/Home/Desktop/ece154lab02final/ALU_tb.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/ALU_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU_tb
+
+Top level modules:
+	ALU_tb
+
+} {} {}} //Mac/Home/Desktop/ece154lab02final/data_memory_tb.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/data_memory_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module data_memory_tb
+
+Top level modules:
+	data_memory_tb
+
+} {} {}} //Mac/Home/Desktop/ece154lab02final/memory.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/memory.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module posedgedetector
+-- Compiling module changedetector
+-- Compiling module memory
+
+Top level modules:
+	changedetector
+	memory
+
+} {} {}} //Mac/Home/Desktop/ece154lab02final/hazard_unit.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/hazard_unit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module hazard_unit
+
+Top level modules:
+	hazard_unit
+
+} {} {}} //Mac/Home/Desktop/ece154lab02final/controller_tb.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/controller_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module controller_tb
+
+Top level modules:
+	controller_tb
+
+} {} {}} //Mac/Home/Desktop/ece154lab02final/generalModuleTB.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/generalModuleTB.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module clearreg_tb
+
+Top level modules:
+	clearreg_tb
+
+} {} {}} //Mac/Home/Desktop/ece154lab02final/Top.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/Top.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} //Mac/Home/Desktop/ece154lab02final/inst_memory_tb.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/ece154lab02final/inst_memory_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module inst_memory_tb
+
+Top level modules:
+	inst_memory_tb
+
+} {} {}}

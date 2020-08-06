@@ -1,0 +1,17 @@
+Sun Apr 26 20:45:46 PDT 2020
+Trace back: too many nested evaluations (infinite loop?)
+    (procedure "WinfoTopFrame" line 1)
+    invoked from within
+"WinfoTopFrame $tree"
+    (procedure "treeClearAllTrees" line 3)
+    invoked from within
+"treeClearAllTrees $tree"
+    (procedure "treeBeginSelect" line 16)
+    invoked from within
+"treeBeginSelect $tree [$w index @$x,$y]"
+    (procedure "TreeButtonRelease1" line 6)
+    invoked from within
+"TreeButtonRelease1 .main_pane.wave.interior.cs.body.pw.wf.grid.row0,name.data 170 230"
+    (command bound to event)
+  <2:C:/Modeltech_pe_edu_10.4a/win32pe_edu/tk8.5/bgerror.tcl:92: ::tkerror {too many nested evaluations (infinite loop?)}
+  <1:C:/Modeltech_pe_edu_10.4a/win32pe_edu/tk8.5/menu.tcl:-1: ::tk::dialog::error::bgerror {too many nested evaluations (infinite loop?)}

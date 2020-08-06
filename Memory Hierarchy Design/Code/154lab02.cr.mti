@@ -1,0 +1,230 @@
+C:/Modeltech_pe_edu_10.4a/examples/Finaltest.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/Finaltest.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module datapath_tb
+
+Top level modules:
+	datapath_tb
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/reg_file_tb.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/reg_file_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module reg_file_tb
+
+Top level modules:
+	reg_file_tb
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/delaysignal_tb.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/delaysignal_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module delaysignal_tb
+
+Top level modules:
+	delaysignal_tb
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/ALU.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/ALU.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/data_memory.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/data_memory.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module data_memory
+-- Compiling module inst_memory
+
+Top level modules:
+	data_memory
+	inst_memory
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/Controller.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/Controller.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/generalModule.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/generalModule.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module adder
+-- Compiling module adder64
+-- Compiling module sl2
+-- Compiling module s25l2
+-- Compiling module sl16
+-- Compiling module sl2jump
+-- Compiling module extend
+-- Compiling module signext
+-- Compiling module flopr
+-- Compiling module multreg
+-- Compiling module fetchtodec
+-- Compiling module dectoexc
+-- Compiling module exctom
+-- Compiling module mtowrite
+-- Compiling module mux2
+-- Compiling module mux3
+-- Compiling module mux4
+-- Compiling module enablereg
+-- Compiling module normalreg
+-- Compiling module resetclearenablereg
+-- Compiling module clearenablereg
+-- Compiling module clearreg
+-- Compiling module signaldelay
+
+Top level modules:
+	adder
+	adder64
+	sl2
+	s25l2
+	sl16
+	sl2jump
+	extend
+	signext
+	flopr
+	multreg
+	fetchtodec
+	dectoexc
+	exctom
+	mtowrite
+	mux2
+	mux3
+	mux4
+	enablereg
+	normalreg
+	resetclearenablereg
+	clearenablereg
+	clearreg
+	signaldelay
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/reg_file.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/reg_file.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/Data_Path.v {1 {vlog -work work -stats=none {C:\Modeltech_pe_edu_10.4a\examples\Data_Path.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module data_path
+
+Top level modules:
+	data_path
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/ALU_tb.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/ALU_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU_tb
+
+Top level modules:
+	ALU_tb
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/data_memory_tb.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/data_memory_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module data_memory_tb
+
+Top level modules:
+	data_memory_tb
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/memory.v {1 {vlog -work work -stats=none {C:\Modeltech_pe_edu_10.4a\examples\memory.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module posedgedetector
+-- Compiling module changedetector
+-- Compiling module memory
+
+Top level modules:
+	changedetector
+	memory
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/controller_tb.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/controller_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module controller_tb
+
+Top level modules:
+	controller_tb
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/hazard_unit.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/hazard_unit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module hazard_unit
+
+Top level modules:
+	hazard_unit
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/generalModuleTB.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/generalModuleTB.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module clearreg_tb
+
+Top level modules:
+	clearreg_tb
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/inst_memory_tb.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/inst_memory_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module inst_memory_tb
+
+Top level modules:
+	inst_memory_tb
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/Top.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/Top.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/cachecontrol.v {1 {vlog -work work -stats=none {C:\Modeltech_pe_edu_10.4a\examples\cachecontrol.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module cache_control
+-- Compiling module FSM
+
+Top level modules:
+	cache_control
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/adder_tb.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/adder_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module adder_tb
+
+Top level modules:
+	adder_tb
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/cache2.v {1 {vlog -work work -stats=none {C:\Modeltech_pe_edu_10.4a\examples\cache2.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module cachesystem
+-- Compiling module cache
+
+Top level modules:
+	cachesystem
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/detector_tb.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/detector_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module detector_tb
+
+Top level modules:
+	detector_tb
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/hazard_tb.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/hazard_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/mult_tb.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/mult_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mult_tb
+
+Top level modules:
+	mult_tb
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/multiplier.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/multiplier.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module laji_mult
+
+Top level modules:
+	laji_mult
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/cache_tb.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/cache_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module cache_tb
+
+Top level modules:
+	cache_tb
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/mips.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/mips.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}}

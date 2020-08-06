@@ -1,0 +1,52 @@
+
+module cache (input clk, write,
+              input   [31:0] address, write_data,
+	      output hit,
+              output  [31:0] Read_data);
+
+	reg [310:0] cache [1:0];
+	// 00:|v1|u|tag1|data_block1|v2|tag2|data_block2|
+	// 01:|v1|u|tag1|data_block1|v2|tag2|data_block2|
+	// 10:|v1|u|tag1|data_block1|v2|tag2|data_block2|
+	// 11:|v1|u|tag1|data_block1|v2|tag2|data_block2|
+	// cache[310] = v1
+	// cache[309] = u
+	// cache[308:283] = tag1
+	// cache[282:155] = data_block1
+	// cache[154] = v2
+	// cache[153:128] = tag2
+	// cache[127:0] = data_block2
+
+	// split the input into |tag|index|block_offset|00|
+	wire [1:0] block_offset_input;
+	assign block_offset_input = address[3:2];
+	wire [1:0] index_input;
+	assign index_input = address[5:4];
+	wire [25:0] tag_input;
+	assign tag_input = address[31:6];
+
+	// assign v1, u, v2
+	wire v1, u, v2;
+	assign v1 = cache[index_input][310];
+	assign u = cache[index_input][309];
+	assign v2 = cache[index_input][154];
+
+	// select one data from cache
+	wire [25:0] tag1_to_check;
+	assign tag1_to_check = cache[index_input][308:283];
+	wire [25:0] tag2_to_check;
+	assign tag2_to_check = cache[index_input][153:128];
+	// check if equal
+	wire if_equal_tag1;
+	assign if_equal_tag1 = tag1_to_check == tag_input;
+	wire if_equal_tag2;
+	assign if_equal_tag2 = tag2_to_check == tag_input;
+	//check hit
+	assign hit = (if_equal_tag1 & v1)|(if_equal_tag2 & v2);
+	//asign output
+	wire [127:0] output_data_block;
+	assign output_data_block = if_equal_tag1 ? cache[index_input][282:155] : cache[index_input][127:0];
+	mux4 outputmux(output_data_block[31:0], output_data_block[63:32], output_data_block[95:64],output_data_block[127:96],block_offset_input,Read_data);
+	
+
+endmodule
