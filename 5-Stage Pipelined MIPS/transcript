@@ -1,0 +1,75 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+project open C:/Modeltech_pe_edu_10.4a/examples/154Blab01
+# Loading project 154Blab01
+# Compile of generalModule.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALU_tb.v was successful.
+# Compile of data_memory.v was successful.
+# Compile of data_memory_tb.v was successful.
+# Compile of inst_memory_tb.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of reg_file_tb.v was successful.
+# Compile of Controller.v was successful.
+# Compile of controller_tb.v was successful.
+# Compile of mult_tb.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of hazard_unit.v was successful.
+# Compile of Data_Path.v was successful.
+# Compile of Top.v was successful.
+# Compile of mips.v was successful.
+# Compile of Finaltest.v was successful.
+# Compile of generalModuleTB.v was successful.
+# Compile of adder_tb.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.datapath_tb
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 18:58:11 on Apr 14,2020
+# Loading work.datapath_tb
+# Loading work.top
+# Loading work.mips
+# Loading work.Controller
+# Loading work.data_path
+# Loading work.mux3
+# Loading work.flopr
+# Loading work.inst_memory
+# Loading work.fetchtodec
+# Loading work.regfile
+# Loading work.extend
+# Loading work.clearreg
+# Loading work.ALU
+# Loading work.laji_mult
+# Loading work.normalreg
+# Loading work.mux4
+# Loading work.data_memory
+# Loading work.hazard_unit
+add wave -position end sim:/datapath_tb/dut/mip/genius/rf/*
+run -all
+# ** Note: $stop    : C:/Modeltech_pe_edu_10.4a/examples/Finaltest.v(10)
+#    Time: 10022 ns  Iteration: 0  Instance: /datapath_tb
+# Break in Module datapath_tb at C:/Modeltech_pe_edu_10.4a/examples/Finaltest.v line 10
+add wave -position end  sim:/datapath_tb/dut/mip/genius/instrf
+restart -f
+run -all
+# ** Note: $stop    : C:/Modeltech_pe_edu_10.4a/examples/Finaltest.v(10)
+#    Time: 10022 ns  Iteration: 0  Instance: /datapath_tb
+# Break in Module datapath_tb at C:/Modeltech_pe_edu_10.4a/examples/Finaltest.v line 10
+# End time: 19:02:17 on Apr 14,2020, Elapsed time: 0:04:06
+# Errors: 0, Warnings: 0
